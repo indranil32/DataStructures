@@ -2,5 +2,79 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/org/bouncycastle/bcprov-jdk16/1.46/bcprov-jdk16-1.46.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="commons-codec"/>
+			<attribute name="maven.artifactId" value="commons-codec"/>
+			<attribute name="maven.version" value="1.10"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/.m2/repository/quickplay/security/qp.crypto.lib/1.0.0.5/qp.crypto.lib-1.0.0.5.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/F:/.m2/repository/quickplay/security/qp.crypto.lib/1.0.0.5/qp.crypto.lib-1.0.0.5-javadoc.jar!/"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="quickplay.security"/>
+			<attribute name="maven.artifactId" value="qp.crypto.lib"/>
+			<attribute name="maven.version" value="1.0.0.5"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/quickplay/cms/content/cms-content-ms-shared-lib/2.0.11.7/cms-content-ms-shared-lib-2.0.11.7.jar" sourcepath="/GIT_HOME/cms-content-ms/cms-content-ms-shared-lib"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-databind/2.6.5/jackson-databind-2.6.5.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar" sourcepath="F:/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/F:/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4-javadoc.jar!/"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="commons-io"/>
+			<attribute name="maven.artifactId" value="commons-io"/>
+			<attribute name="maven.version" value="2.4"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.6.5/jackson-core-2.6.5.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.5/jackson-annotations-2.6.5.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/com/quickplay/cms/content/cms-content-ms-shared-lib/2.0.12.1-SNAPSHOT/cms-content-ms-shared-lib-2.0.12.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/com/quickplay/qfs-service-common-lib/1.0.0.86/qfs-service-common-lib-1.0.0.86.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/org/slf4j/slf4j-log4j12/1.7.18/slf4j-log4j12-1.7.18.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/org/slf4j/slf4j-api/1.7.18/slf4j-api-1.7.18.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/com/quickplay/cms/content/cms-content-ms-access-lib/2.0.11.7/cms-content-ms-access-lib-2.0.11.7.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/oracle/ojdbc14/10.2.0.2.0/ojdbc14-10.2.0.2.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/quickplay/sharedservices-client/5.1.0.23/sharedservices-client-5.1.0.23.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/quickplay/drm/QpDrmLibJdk6/1.0.1.8/QpDrmLibJdk6-1.0.1.8.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.google.code.gson"/>
+			<attribute name="maven.artifactId" value="gson"/>
+			<attribute name="maven.version" value="2.3.1"/>
+			<attribute name="maven.scope" value="runtime"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/.m2/repository/org/apache/poi/poi/3.9/poi-3.9.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/org/apache/poi/poi-excelant/3.12/poi-excelant-3.12.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.9/poi-ooxml-schemas-3.9.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/org/apache/poi/poi-scratchpad/3.8/poi-scratchpad-3.8.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="F:/.m2/repository/org/apache/commons/commons-csv/1.2/commons-csv-1.2.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.apache.commons"/>
+			<attribute name="maven.artifactId" value="commons-csv"/>
+			<attribute name="maven.version" value="1.2"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
