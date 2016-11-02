@@ -2,24 +2,20 @@ package com.data.structures.utils;
 
 import java.util.Scanner;
 
-public class Utilities {
+public final class Utilities {
 	
-	Scanner scan ;
+	private Scanner scan ;
 	
-	private Utilities () {
-		scan = new Scanner(System.in);
-	}
-	
-	private static final Utilities _INSTANCE = new Utilities();
-	
-	public static Utilities _getInstance() {
-		return _INSTANCE;
+	private synchronized Scanner getScanner() {
+		if (scan == null)
+			scan = new Scanner(System.in);
+		return scan;
 	}
 	
 	public int readNumberOfTestCases() {
 		int numberOfTestCases = 0;
 		while(true) {
-			numberOfTestCases = scan.nextInt();
+			numberOfTestCases = getScanner().nextInt();
 			if (numberOfTestCases < 1) {
 				System.out.println("Invalid number of test cases!");
 				System.out.println("Please try typing the input again....");
@@ -30,22 +26,34 @@ public class Utilities {
 		return numberOfTestCases;
 	}
 	
-	/*public String[] readStringArray (int numberOfTestCases) {
-		
-		for (int i = 0; i < numberOfTestCases ; i++) {
-			
-		}
-	}
-	
-	public int[] readIntegerArray (int numberOfTestCases) {
-		for (int i = 0; i < numberOfTestCases ; i++) {
-			
-		}
-	}*/
-	
 	public void closeScanner() {
 		if (scan != null)
 			scan.close();
 	}
 	
+	public static void printIntArray(int[] array) {
+		for (int i = 0 ; i < array.length ; i++) {
+			System.out.print(array[i]);
+			System.out.print(" ");
+		}
+		System.out.println();
+	}
+	
+	public static void printStrArray(String[] array) {
+		for (int i = 0 ; i < array.length ; i++) {
+			System.out.print(array[i]);
+			System.out.print(" ");
+		}
+		System.out.println();
+	}
+	
+	public static void printInt2DArray(int[][] array) {
+		for (int i = 0 ; i < array.length ; i++) {
+			for (int j = 0 ; j < array.length ; j++) {
+				System.out.print(array[i][j]);
+				System.out.print(" ");
+			}
+			System.out.println();
+		}
+	}
 }
